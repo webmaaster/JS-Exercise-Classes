@@ -110,7 +110,20 @@ Car.prototype.drive = function(distance) {
 */
 class Lambdasian {
 
+    constructor(singleObj){
+      this.name = singleObj.name;
+      this.age = singleObj.age;
+      this.location = singleObj.location;
+    }
+
+    speak(){
+      return `Hello my name is ${this.name}, I am from ${this.location}`
+
+    }
+ 
 }
+
+
 
 /*
   TASK 4
